@@ -1,0 +1,58 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background-color: #0f172a;
+  color: #e5e7eb;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Container */
+.card {
+  background: #020617;
+  padding: 2rem;
+  border-radius: 14px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+/* Title */
+.card h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.75rem;
+  color: #38bdf8;
+}
+
+/* Description */
+.card p {
+  font-size: 0.95rem;
+  color: #94a3b8;
+  margin-bottom: 1.5rem;
+}
+
+/* Button */
+.btn {
+  background: linear-gradient(135deg, #38bdf8, #2563eb);
+  border: none;
+  padding: 0.7rem 1.4rem;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(37, 99, 235, 0.5);
+}
